@@ -44,6 +44,10 @@ const config: HardhatUserConfig = {
       url: 'https://goerli.infura.io/v3/' + process.env.INFURA_TOKEN,
       accounts,
     },
+    // production: {
+    //   url: 'https://stake.getblock.io/mainnet/?api_key=your-api-key',
+    //   accounts: ['0xca...'],
+    // },
   },
   paths: {
     sources: 'src',

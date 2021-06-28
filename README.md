@@ -18,3 +18,9 @@ You may run tests with `yarn test`.
 
 Hardhat is configured to deploy all contracts to the testing hardhat devchain and to use all named accounts.
 
+## Top up:
+
+You may top up The Book of Swarm batch by 1000 plur `npm run production:topup`.
+
+Add your private key and getblock api key in the hardhat config.
+

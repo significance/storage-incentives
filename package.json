@@ -54,6 +54,7 @@
     "staging:deploy": "hardhat --network staging deploy",
     "staging:export": "hardhat --network staging export",
     "staging:seed": "cross-env HARDHAT_NETWORK=staging ts-node --files scripts/seed.ts",
+    "production:topup": "cross-env HARDHAT_NETWORK=production ts-node --files scripts/topup.ts",
     "hardhat": "hardhat"
   }
 }
